@@ -29,6 +29,7 @@ logo: "/assets/images/logo-golli-ma-v1.png"
 # Build settings
 footer_content: Golli copyright 2023
 theme: just-the-docs
+color_scheme: golli
 
 plugins:
   - jekyll-feed

@@ -34,17 +34,8 @@ plugins:
   - jekyll-multiple-languages-plugin
   - jekyll-sitemap
 
-collections:
-  authors:
-    output: true
-  types:
-    output: true
-  pharmacies:
-    output: true
-  cities:
-    output: true
 
-search_enabled: true
+search_enabled: false
 
 search:
   # Split pages into sections that can be searched individually
@@ -69,33 +60,6 @@ search:
   # Enable or disable the search button that appears in the bottom right corner of every page
   # Supports true or false (default)
   button: false
-
-just_the_docs:
-  collections:
-    pharmacies:
-      name: pharmacies
-
-defaults:
-  - scope:
-      path: ""
-      type: "authors"
-    values:
-      layout: "author"
-  - scope:
-      path: ""
-      type: "types"
-    values:
-      layout: "default"
-  - scope:
-      path: ""
-      type: "pharmacies"
-    values:
-      layout: "localbusiness"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
 
 
 languages: ["fr", "en","ar"]

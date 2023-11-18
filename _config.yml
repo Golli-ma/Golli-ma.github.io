@@ -27,6 +27,7 @@ url: "https://golli.ma" # the base hostname & protocol for your site, e.g. http:
 github_username:  golli-ma
 logo: "/assets/images/logo-golli-ma-v1.png"
 # Build settings
+footer_content: Golli copyright 2023
 theme: just-the-docs
 
 plugins:
